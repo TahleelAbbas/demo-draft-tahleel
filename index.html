@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+        .flex-container {
+            
+            display:flex;
+            background-color: DodgerBlue;
+            size: 20px 20px 20px 20px;
+        }
         h1{
             color: blue;
             background-color: aqua;
             padding: 20px 0px 20px 50px;
+            text-align: center;
         }
         p{
             font-family: Verdana;
@@ -33,8 +41,12 @@
         .flex-container > div {
                 background-color: #f1f1f1;
                 margin: 10px;
-                padding: 20px 10px 10px 10px;
+                padding: 10px 10px 10px 10px;
                 font-size: 30px;
+                size: 20px 20px 20px 20px;
+        }
+        .grid-container > div {
+            
         }
 
     
@@ -44,7 +56,7 @@
     <section>
         <div>
             <h1>
-                This is Headling ! 
+                This is Headling ! Website for practice  
             </h1>
         </div>
         <div>
@@ -54,9 +66,13 @@
         </div>
         <div class="flex-container">
             <div>one</div>
-            <div>two</div>
+            <div style="color: red;">two</div>
             <div>three</div>
             <div>four</div>
+            <div>five</div>
+            <div>two</div>
+            <div>three</div>
+            <div class="grid-container">four</div>
 
         </div>
     </section>
